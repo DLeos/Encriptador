@@ -94,13 +94,13 @@ button{
     display: flex;    
     padding: 4px;
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s;
 }
 #text-boton-encriptar, #text-boton-desencriptar, #text-boton-copiar{
     background-color: #111;
     padding: 16px 24px;
     border-radius: 6px;
-    transition: .3s;
+    transition: 0.3s;
 }
 .boton-encriptar:hover #text-boton-encriptar{
     background: none;
