@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+body{
+    background: black url(Imagenes/Captura.PNG) repeat-x fixed;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+}
+h1{
+    background-color: black;
+    border-radius: 5px;
+}
+.caja-logo-alura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logoAlura{
+    width: 66px;
+    height: 66px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+section{
+    display: flex;
+    margin: 25px 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    gap: 25px;
+}
+.contenedor{
+    width: 100%;
+}
+.text-encriptar{
+    opacity: 0.7;
+    border: none;
+    border-radius: 5%;
+    text-transform: lowercase;
+    margin: 0 10px 5px 10px;
+    padding-left: 15px;
+    width: 90%;
+}
+::placeholder{
+    color: black;
+    font-size: 18px;
+}
+.text-encriptar, .text-mensaje:focus{
+    outline: none;
+}
+.text-mensaje{
+    opacity: 0.7;
+    border: none;
+    border-radius: 5%;
+    text-transform: lowercase;
+    margin: 0 10px 5px 10px;
+    padding-left: 15px;
+    width: 90%;
+}
+button{
+    cursor: pointer;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+.boton-encriptar, .boton-desencriptar, .boton-copiar{
+    border: 0;
+    background-image: linear-gradient(
+        greenyellow, green, darkgreen, green, greenyellow
+    );
+    border-radius: 8px;
+    color: white;
+    display: flex;    
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+#text-boton-encriptar, #text-boton-desencriptar, #text-boton-copiar{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.boton-encriptar:hover #text-boton-encriptar{
+    background: none;
+}
+.boton-desencriptar:hover #text-boton-desencriptar{
+    background: none;
+}
+.boton-copiar:hover #text-boton-copiar{
+    background: none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.autor{
+    background-color: black;
+    border-radius: 5%;
+    margin: 10px;
+}

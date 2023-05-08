@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style-reset.css">
+        <link rel="stylesheet" href="style.css">        
+    </head>
+
+    <body>
+        <header>
+            <div class="encabezado">
+                <img class="logo" src="Imagenes/Logo.jpg" alt="">
+                <h1>Encriptador</h1>
+            </div>
+            <div class="caja-logo-alura">
+                <img class="logoAlura" src="Imagenes/Logo Alura.png" alt="logoAlura">
+            </div>
+            
+        </header>
+
+        <main>
+            <section>
+                <div class="contenedor">
+                    <textarea class="text-encriptar" name="" id="text-encriptar" cols="30" rows="10" placeholder="Ingrese el texto para encriptar (No ingresar acentos)"></textarea>
+                    <div class="botones">
+                        <button class="boton-encriptar" onclick="btnEncriptar()"><span id="text-boton-encriptar">Encriptar</span></button>
+                        <button class="boton-desencriptar" onclick="btnDesencriptar()"><span id="text-boton-desencriptar">Desencriptar</span></button>
+                    </div>
+                    
+                </div>
+                <div class="contenedor">
+                    <textarea class="text-mensaje" name="" id="text-mensaje" cols="30" rows="10" placeholder="Sin resultados"></textarea>
+                    <div class="botones">
+                        <button class="boton-copiar"><span id="text-boton-copiar">Copiar</span></button>
+                    </div>                    
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            
+            <p class="autor">Angel Serrato</p>
+        </footer>        
+        <script src="Encriptador.js"></script>
+    </body>
+</html>
